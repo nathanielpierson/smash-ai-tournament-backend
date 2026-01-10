@@ -4,7 +4,7 @@ class CreateContestants < ActiveRecord::Migration[8.0]
       t.string :name
       t.string :character
       t.string :category
-      t.string :slot-number
+      t.string :slot_number
 
       t.timestamps
     end
