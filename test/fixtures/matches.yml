@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contestant_one_id: 1
+  contestant_two_id: MyString
+  integer: MyString
+  youtube_link: MyString
+  result: MyString
+
+two:
+  contestant_one_id: 1
+  contestant_two_id: MyString
+  integer: MyString
+  youtube_link: MyString
+  result: MyString
