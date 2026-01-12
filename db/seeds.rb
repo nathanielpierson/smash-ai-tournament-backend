@@ -62,3 +62,6 @@ Contestant.create(name: "Sheik B", character: "Sheik", Category: "", slot_number
 Contestant.create(name: "Flinchless Falcon", character: "Captain Falcon", Category: "", slot_number: 9)
 Contestant.create(name: "Basher Toon Link", character: "Toon Link", Category: "Basher", slot_number: 9)
 Contestant.create(name: "2fast Knight", character: "Meta Knight", Category: "Speed", slot_number: 9)
+
+Matchup.create(contestant_one: Contestant.find_by(name: "Slippery Kong"), contestant_two: Contestant.find_by(name: "Priestess Aran"),)
+Matchup.create(contestant_two: Contestant.find_by(name: "Mixed Specialist"), contestant_two: Contestant.find_by(name: "Smols"))
