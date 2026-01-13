@@ -63,5 +63,7 @@ Contestant.create(name: "Flinchless Falcon", character: "Captain Falcon", Catego
 Contestant.create(name: "Basher Toon Link", character: "Toon Link", Category: "Basher", slot_number: 9)
 Contestant.create(name: "2fast Knight", character: "Meta Knight", Category: "Speed", slot_number: 9)
 
-Matchup.create(contestant_one: Contestant.find_by(name: "Slippery Kong"), contestant_two: Contestant.find_by(name: "Priestess Aran"),)
-Matchup.create(contestant_two: Contestant.find_by(name: "Mixed Specialist"), contestant_two: Contestant.find_by(name: "Smols"))
+Matchup.create(contestant_one: Contestant.find_by(name: "Slippery Kong"), contestant_two: Contestant.find_by(name: "Priestess Aran"), youtube_link: "https://youtu.be/SrVkpqBTpM4", outcome: "2-0")
+Matchup.create(contestant_one: Contestant.find_by(name: "Mixed Specialist"), contestant_two: Contestant.find_by(name: "Smols"), youtube_link: "https://youtu.be/V60SWv9yINA", outcome: "0-2")
+Matchup.create(contestant_one: Contestant.find_by(name: "Stinky Wario"), contestant_two: Contestant.find_by(name: "Tough Iggy"), youtube_link: "https://youtu.be/B7odOj7dqSg", outcome: "0-2")
+Matchup.create(contestant_one: Contestant.find_by(name: "Dedede the Rock"), contestant_two: Contestant.find_by(name: "DPS Ganon"), youtube_link: "https://youtu.be/hSe4d8dFkVc")
