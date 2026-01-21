@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_01_12_205115) do
+ActiveRecord::Schema[8.0].define(version: 2026_01_21_173651) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -40,6 +40,7 @@ ActiveRecord::Schema[8.0].define(version: 2026_01_12_205115) do
     t.datetime "updated_at", null: false
     t.string "youtube_url"
     t.string "outcome"
+    t.integer "number"
     t.index ["contestant_one_id"], name: "index_matchups_on_contestant_one_id"
     t.index ["contestant_two_id"], name: "index_matchups_on_contestant_two_id"
   end
