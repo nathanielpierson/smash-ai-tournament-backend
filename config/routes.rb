@@ -5,5 +5,9 @@ Rails.application.routes.draw do
   # Can be used by load balancers and uptime monitors to verify that the app is live.
   get "up" => "rails/health#show", as: :rails_health_check
 
-  get "/contestants" => "contestants#index"
+  get "api/contestants" => "contestants#index"
+  get "api/contestants/:id" => "contestants#show", as: :contestant
+
+  get "api/matchups" => "matchups#index"
+  get "api/matchups/:id" => "matchups#show"
 end
