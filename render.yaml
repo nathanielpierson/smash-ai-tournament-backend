@@ -1,0 +1,19 @@
+# Render Blueprint: links PostgreSQL to the web service so DATABASE_URL is set.
+# If you already have a web service, link your database in the Dashboard instead:
+# Dashboard → your Web Service → Environment → Add from Render (pick your Postgres) → DATABASE_URL
+
+databases:
+  - name: smash-ai-tournament-db
+    plan: free
+
+services:
+  - type: web
+    name: smash-ai-tournament-backend
+    runtime: docker
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: smash-ai-tournament-db
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
