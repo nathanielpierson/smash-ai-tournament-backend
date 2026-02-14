@@ -1,6 +1,6 @@
 class MatchupsController < ApplicationController
   def index
-    @matchups = Matchup.order(:number)
+    @matchups = Matchup.all
     render :index
   end
 
