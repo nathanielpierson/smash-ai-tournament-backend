@@ -37,16 +37,16 @@ Contestant.create(name: "Meteor Shulk", character: "Shulk", category: "", slot_n
 Contestant.create(name: "Not Wolf", character: "Fox", category: "", slot_number: 9)
 Contestant.create(name: "other fox", character: "Fox", category: "", slot_number: 8)
 Contestant.create(name: "Jumpy Mac", character: "Little Mac", category: "Jumper", slot_number: 8)
-Contestant.create(name: "Basher", character: "Kirby", category: "Basher", slot_number: 0)
+Contestant.create(name: "Bashirby", character: "Kirby", category: "Basher", slot_number: 0)
 Contestant.create(name: "Speedkachu", character: "Pikachu", category: "Speed", slot_number: 0)
 Contestant.create(name: "Land Lubber Luigi", character: "Luigi", category: "", slot_number: 8)
-Contestant.create(name: "Rosalina and Luma", character: "Rosalina and Luma", category: "Standard", slot_number: 0)
-Contestant.create(name: "Corrin", character: "Corrin", category: "Standard", slot_number: 0)
-Contestant.create(name: "Zero Suit Samus", character: "Zero Suit Samus", category: "Standard", slot_number: 0)
-Contestant.create(name: "Ryu", character: "Ryu", category: "Standard", slot_number: 0)
+Contestant.create(name: "Rosalina and Luma (standard)", character: "Rosalina and Luma", category: "Standard", slot_number: 0)
+Contestant.create(name: "Corrin (standard)", character: "Corrin", category: "Standard", slot_number: 0)
+Contestant.create(name: "Zero Suit Samus (standard)", character: "Zero Suit Samus", category: "Standard", slot_number: 0)
+Contestant.create(name: "Ryu (standard)", character: "Ryu", category: "Standard", slot_number: 0)
 Contestant.create(name: "Lucarengee", character: "Lucario", category: "", slot_number: 7)
 Contestant.create(name: "MirrorPuff", character: "Jigglypuff", category: "", slot_number: 0)
-Contestant.create(name: "Woke Alph", character: "Olimar", category: "", slot_number: 9)
+Contestant.create(name: "Pink Hair and Pikmin", character: "Olimar", category: "", slot_number: 9)
 Contestant.create(name: "Fierce Diety", character: "Link", category: "", slot_number: 9)
 Contestant.create(name: "Fast Doc", character: "Dr. Mario", category: "Speed", slot_number: 9)
 Contestant.create(name: "Trade Off Doc", character: "Dr. Mario", category: "Trade Off", slot_number: 8)
@@ -75,16 +75,16 @@ matchup_data = [
   [ "Exploshi", "She Fitness Basher", "2-0", "https://youtu.be/F8cRE-NFkMY" ],
   [ "Lu Cena", "Bowser the Rock", "2-1", "https://youtu.be/EY9KVycbGfU" ],
   [ "OP Man", "Fedra", "2-0", "https://youtu.be/vMIxHY_GfJU" ],
-  [ "He Fitness Basher", "Corrin", "0-2", "https://youtu.be/615kQdKWhMQ" ],
+  [ "He Fitness Basher", "Corrin (standard)", "0-2", "https://youtu.be/615kQdKWhMQ" ],
   [ "Lucarengee", "Sheik B", "2-0", "https://youtu.be/qzFwdVa5HlY" ],
   [ "Anemia", "other fox", "2-0", "https://youtu.be/PxGyH77DAl4" ],
   [ "Batty Marth", "Hello Kitty", "2-1", "https://youtu.be/TlvDhURM_TE" ],
   [ "Priest Mew", "Trade Off Doc", "2-0", "https://youtu.be/A3FCGiifI9A" ],
   [ "Aaron Burr", "Strong Diddy", "2-0", "https://youtu.be/84ECQOFoHi0" ],
-  [ "Fast Pit", "Basher", "0-2", "https://youtu.be/GYDMmTA3XZk" ],
+  [ "Fast Pit", "Bashirby", "0-2", "https://youtu.be/GYDMmTA3XZk" ],
   [ "Rosalina & Luma", "Trade Off Healer Peach", "1-2", "https://youtu.be/yqusLp67mUA" ],
   [ "Jumpy Dog", "Jumpy Mac", "1-2", "https://youtu.be/g7YOVMNP-5I" ],
-  [ "Everywhere Robot", "Woke Alph", "0-2", "https://youtu.be/7YIvdEmcuCQ" ],
+  [ "Everywhere Robot", "Pink Hair and Pikmin", "0-2", "https://youtu.be/7YIvdEmcuCQ" ],
   [ "Basher Toon Link", "Emerson", "0-2", "https://youtu.be/QzEjm1xZs9o" ],
   [ "MirrorPuff", "Buffdunker", "1-2", "https://youtu.be/_6WcJEc0mkQ" ],
   [ "Shieldy Marth", "Kinkay", "0-2", "https://youtu.be/FFfD6bH-yQs" ],
@@ -97,7 +97,7 @@ matchup_data = [
   [ "Jack Sparrow", "Sheik A", nil, "https://www.youtube.com/watch?v=jvDJlXJZkVQ" ],
   [ "Charizard the Rock", "Fast Doc", "2-0", "https://youtu.be/MIX6R6alssk" ],
   [ "Bee", "Land Lubber Luigi", "2-0", "https://youtu.be/HoR9HVJIDpE" ],
-  [ "Ryu", "Zero Suit Samus", "2-0", "https://youtu.be/FuFgP_ro7ZM" ],
+  [ "Ryu (standard)", "Zero Suit Samus (standard)", "2-0", "https://youtu.be/FuFgP_ro7ZM" ],
   [ "Not Wolf", "Flinchless Falcon", nil, "https://www.youtube.com/watch?v=TizRa_lyTFA" ],
   [ "Priestess Aran", "Mixed Specialist", nil, "https://youtu.be/dr0xBUiHCuA" ],
   [ "Stinky Wario", "DPS Ganon", nil, "https://youtu.be/fIH8pjQoNCY" ],
@@ -114,7 +114,7 @@ matchup_data = [
   [ "Leader of the Bunch", "Thicc Daisy", "0-2", "https://youtu.be/GjxavYlno1c" ],
   [ "Sniper Mage", "Jack Sparrow", nil, "https://youtu.be/mZ6RTStQCrk" ],
   [ "Fast Doc", "Land Lubber Luigi", "0-2", "https://youtu.be/znzIRd29UAM" ],
-  [ "Zero Suit Samus", "Flinchless Falcon", "2-1", "https://youtu.be/FRkQLQ0M1sc" ],
+  [ "Zero Suit Samus (standard)", "Flinchless Falcon", "2-1", "https://youtu.be/FRkQLQ0M1sc" ],
   [ "Slippery Kong", "Smols", "1-2", "https://www.youtube.com/watch?v=sZwKfdpyU1w" ],
   [ "Tough Iggy", "Dedede the Rock", "1-2", "https://youtu.be/SkICCXVILwU" ],
   [ "e-girl", "Exploshi", "2-0", "https://youtu.be/kPB1Ql5nOwU" ]
@@ -122,7 +122,7 @@ matchup_data = [
 
 # Name mapping for variations
 name_mapping = {
-  "Rosalina & Luma" => "Rosalina and Luma",
+  "Rosalina & Luma" => "Rosalina and Luma (standard)",
   "Mr. Make and Watch" => "Mr. Make & Watch",
   "Shiek B" => "Sheik B"
 }
