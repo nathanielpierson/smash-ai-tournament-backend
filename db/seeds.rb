@@ -37,16 +37,16 @@ Contestant.create(name: "Meteor Shulk", character: "Shulk", category: "", slot_n
 Contestant.create(name: "Not Wolf", character: "Fox", category: "", slot_number: 9)
 Contestant.create(name: "other fox", character: "Fox", category: "", slot_number: 8)
 Contestant.create(name: "Jumpy Mac", character: "Little Mac", category: "Jumper", slot_number: 8)
-Contestant.create(name: "Basher", character: "Kirby", category: "Basher", slot_number: 0)
+Contestant.create(name: "Bashirby", character: "Kirby", category: "Basher", slot_number: 0)
 Contestant.create(name: "Speedkachu", character: "Pikachu", category: "Speed", slot_number: 0)
 Contestant.create(name: "Land Lubber Luigi", character: "Luigi", category: "", slot_number: 8)
-Contestant.create(name: "Rosalina and Luma", character: "Rosalina and Luma", category: "Standard", slot_number: 0)
-Contestant.create(name: "Corrin", character: "Corrin", category: "Standard", slot_number: 0)
-Contestant.create(name: "Zero Suit Samus", character: "Zero Suit Samus", category: "Standard", slot_number: 0)
-Contestant.create(name: "Ryu", character: "Ryu", category: "Standard", slot_number: 0)
+Contestant.create(name: "Rosalina and Luma (standard)", character: "Rosalina and Luma", category: "Standard", slot_number: 0)
+Contestant.create(name: "Corrin (standard)", character: "Corrin", category: "Standard", slot_number: 0)
+Contestant.create(name: "Zero Suit Samus (standard)", character: "Zero Suit Samus", category: "Standard", slot_number: 0)
+Contestant.create(name: "Ryu (standard)", character: "Ryu", category: "Standard", slot_number: 0)
 Contestant.create(name: "Lucarengee", character: "Lucario", category: "", slot_number: 7)
 Contestant.create(name: "MirrorPuff", character: "Jigglypuff", category: "", slot_number: 0)
-Contestant.create(name: "Woke Alph", character: "Olimar", category: "", slot_number: 9)
+Contestant.create(name: "Pink Hair and Pikmin", character: "Olimar", category: "", slot_number: 9)
 Contestant.create(name: "Fierce Diety", character: "Link", category: "", slot_number: 9)
 Contestant.create(name: "Fast Doc", character: "Dr. Mario", category: "Speed", slot_number: 9)
 Contestant.create(name: "Trade Off Doc", character: "Dr. Mario", category: "Trade Off", slot_number: 8)
@@ -75,16 +75,16 @@ matchup_data = [
   [ "Exploshi", "She Fitness Basher", "2-0", "https://youtu.be/F8cRE-NFkMY" ],
   [ "Lu Cena", "Bowser the Rock", "2-1", "https://youtu.be/EY9KVycbGfU" ],
   [ "OP Man", "Fedra", "2-0", "https://youtu.be/vMIxHY_GfJU" ],
-  [ "He Fitness Basher", "Corrin", "0-2", "https://youtu.be/615kQdKWhMQ" ],
+  [ "He Fitness Basher", "Corrin (standard)", "0-2", "https://youtu.be/615kQdKWhMQ" ],
   [ "Lucarengee", "Sheik B", "2-0", "https://youtu.be/qzFwdVa5HlY" ],
   [ "Anemia", "other fox", "2-0", "https://youtu.be/PxGyH77DAl4" ],
   [ "Batty Marth", "Hello Kitty", "2-1", "https://youtu.be/TlvDhURM_TE" ],
   [ "Priest Mew", "Trade Off Doc", "2-0", "https://youtu.be/A3FCGiifI9A" ],
   [ "Aaron Burr", "Strong Diddy", "2-0", "https://youtu.be/84ECQOFoHi0" ],
-  [ "Fast Pit", "Basher", "0-2", "https://youtu.be/GYDMmTA3XZk" ],
+  [ "Fast Pit", "Bashirby", "0-2", "https://youtu.be/GYDMmTA3XZk" ],
   [ "Rosalina & Luma", "Trade Off Healer Peach", "1-2", "https://youtu.be/yqusLp67mUA" ],
   [ "Jumpy Dog", "Jumpy Mac", "1-2", "https://youtu.be/g7YOVMNP-5I" ],
-  [ "Everywhere Robot", "Woke Alph", "0-2", "https://youtu.be/7YIvdEmcuCQ" ],
+  [ "Everywhere Robot", "Pink Hair and Pikmin", "0-2", "https://youtu.be/7YIvdEmcuCQ" ],
   [ "Basher Toon Link", "Emerson", "0-2", "https://youtu.be/QzEjm1xZs9o" ],
   [ "MirrorPuff", "Buffdunker", "1-2", "https://youtu.be/_6WcJEc0mkQ" ],
   [ "Shieldy Marth", "Kinkay", "0-2", "https://youtu.be/FFfD6bH-yQs" ],
@@ -97,7 +97,7 @@ matchup_data = [
   [ "Jack Sparrow", "Sheik A", nil, "https://www.youtube.com/watch?v=jvDJlXJZkVQ" ],
   [ "Charizard the Rock", "Fast Doc", "2-0", "https://youtu.be/MIX6R6alssk" ],
   [ "Bee", "Land Lubber Luigi", "2-0", "https://youtu.be/HoR9HVJIDpE" ],
-  [ "Ryu", "Zero Suit Samus", "2-0", "https://youtu.be/FuFgP_ro7ZM" ],
+  [ "Ryu (standard)", "Zero Suit Samus (standard)", "2-0", "https://youtu.be/FuFgP_ro7ZM" ],
   [ "Not Wolf", "Flinchless Falcon", nil, "https://www.youtube.com/watch?v=TizRa_lyTFA" ],
   [ "Priestess Aran", "Mixed Specialist", nil, "https://youtu.be/dr0xBUiHCuA" ],
   [ "Stinky Wario", "DPS Ganon", nil, "https://youtu.be/fIH8pjQoNCY" ],
@@ -114,17 +114,129 @@ matchup_data = [
   [ "Leader of the Bunch", "Thicc Daisy", "0-2", "https://youtu.be/GjxavYlno1c" ],
   [ "Sniper Mage", "Jack Sparrow", nil, "https://youtu.be/mZ6RTStQCrk" ],
   [ "Fast Doc", "Land Lubber Luigi", "0-2", "https://youtu.be/znzIRd29UAM" ],
-  [ "Zero Suit Samus", "Flinchless Falcon", "2-1", "https://youtu.be/FRkQLQ0M1sc" ],
+  [ "Zero Suit Samus (standard)", "Flinchless Falcon", "2-1", "https://youtu.be/FRkQLQ0M1sc" ],
   [ "Slippery Kong", "Smols", "1-2", "https://www.youtube.com/watch?v=sZwKfdpyU1w" ],
   [ "Tough Iggy", "Dedede the Rock", "1-2", "https://youtu.be/SkICCXVILwU" ],
   [ "e-girl", "Exploshi", "2-0", "https://youtu.be/kPB1Ql5nOwU" ]
 ]
 
-# Name mapping for variations
+# Updated matchup data
+matchup_data = [
+  [ "Slippery Kong", "Priestess Aran", "2-0", "https://youtu.be/SrVkpqBTpM4" ],
+  [ "Mixed Specialist", "Smols", "0-2", "https://youtu.be/V60SWv9yINA" ],
+  [ "Stinky Wario", "Tough Iggy", "2-0", "https://youtu.be/B7odOj7dqSg" ],
+  [ "Dedede the Rock", "DPS Ganon", "2-1", "https://youtu.be/hSe4d8dFkVc" ],
+  [ "e-girl", "Loose Gannon", "2-0", "https://youtu.be/5VHEJnLJR_A" ],
+  [ "Exploshi", "She Fitness Basher", "2-0", "https://youtu.be/F8cRE-NFkMY" ],
+  [ "Lu Cena", "Bowser the Rock", "2-1", "https://youtu.be/EY9KVycbGfU" ],
+  [ "OP Man", "Fedra", "2-0", "https://youtu.be/vMIxHY_GfJU" ],
+  [ "He Fitness Basher", "Corrin (standard)", "0-2", "https://youtu.be/615kQdKWhMQ" ],
+  [ "Lucarengee", "Sheik B", "2-0", "https://youtu.be/qzFwdVa5HlY" ],
+  [ "Anemia", "other fox", "2-0", "https://youtu.be/PxGyH77DAl4" ],
+  [ "Batty Marth", "Hello Kitty", "2-1", "https://youtu.be/TlvDhURM_TE" ],
+  [ "Priest Mew", "Trade Off Doc", "2-0", "https://youtu.be/A3FCGiifI9A" ],
+  [ "Aaron Burr", "Strong Diddy", "2-0", "https://youtu.be/84ECQOFoHi0" ],
+  [ "Fast Pit", "Bashirby", "0-2", "https://youtu.be/GYDMmTA3XZk" ],
+  [ "Rosalina and Luma (standard)", "Trade Off Healer Peach", "1-2", "https://youtu.be/yqusLp67mUA" ],
+  [ "Jumpy Dog", "Jumpy Mac", "1-2", "https://youtu.be/g7YOVMNP-5I" ],
+  [ "Everywhere Robot", "Pink Hair and Pikmin", "0-2", "https://youtu.be/7YIvdEmcuCQ" ],
+  [ "Basher Toon Link", "Emerson", "0-2", "https://youtu.be/QzEjm1xZs9o" ],
+  [ "MirrorPuff", "Buffdunker", "1-2", "https://youtu.be/_6WcJEc0mkQ" ],
+  [ "Shieldy Marth", "Kinkay", "0-2", "https://youtu.be/FFfD6bH-yQs" ],
+  [ "Trade Off Watch", "Pretty Wario", "2-0", "https://youtu.be/BuxjsavcD4w" ],
+  [ "2fast Knight", "Speedkachu", "0-2", "https://www.youtube.com/watch?v=hGMWvVLBfFI" ],
+  [ "Fierce Diety", "Meteor Shulk", "1-2", "https://youtu.be/pxE71WazFBc" ],
+  [ "OP Link", "Leader of the Bunch", "2-0", "https://youtu.be/5DVdvRsaXCg" ],
+  [ "OP Bayo", "Thicc Daisy", "2-0", "https://youtu.be/aSGLoN-fels" ],
+  [ "Sniper Mage", "Mr. Make and Watch", "0-2", "https://youtu.be/qoYfb88xcwQ" ],
+  [ "Jack Sparrow", "Sheik A", "1-2", "https://www.youtube.com/watch?v=jvDJlXJZkVQ" ],
+  [ "Charizard the Rock", "Fast Doc", "2-0", "https://youtu.be/MIX6R6alssk" ],
+  [ "Bee", "Land Lubber Luigi", "2-0", "https://youtu.be/HoR9HVJIDpE" ],
+  [ "Ryu (standard)", "Zero Suit Samus (standard)", "2-0", "https://youtu.be/FuFgP_ro7ZM" ],
+  [ "Not Wolf", "Flinchless Falcon", "2-0", "https://www.youtube.com/watch?v=TizRa_lyTFA" ],
+  [ "Priestess Aran", "Mixed Specialist", "2-1", "https://youtu.be/dr0xBUiHCuA" ],
+  [ "Stinky Wario", "DPS Ganon", "0-2", "https://youtu.be/fIH8pjQoNCY" ],
+  [ "Loose Gannon", "She Fitness Basher", "0-2", "https://youtu.be/J7iIePKYKOk" ],
+  [ "Bowser the Rock", "Fedra", "2-0", "https://www.youtube.com/watch?v=hM5uEocHnGo" ],
+  [ "He Fitness Basher", "Shiek B", "2-0", "https://youtu.be/FXHaA3EMZfU" ],
+  [ "other fox", "Hello Kitty", "2-0", "https://youtu.be/Mau53eHXfKU" ],
+  [ "Trade Off Doc", "Strong Diddy", "0-2", "https://youtu.be/EMeGervPyfg" ],
+  [ "Fast Pit", "Rosalina and Luma (standard)", "0-2", "https://youtu.be/HL31iVztcvw" ],
+  [ "Jumpy Dog", "Everywhere Robot", "2-0", "https://youtu.be/DVN7em9_fX4" ],
+  [ "Basher Toon Link", "MirrorPuff", "2-1", "https://youtu.be/rt_me3Ua9Io" ],
+  [ "Shieldy Marth", "Pretty Wario", "2-0", "https://youtu.be/yEQglvILLMI" ],
+  [ "2fast Knight", "Fierce Diety", "0-2", "https://youtu.be/vQkcM8C9Mk" ],
+  [ "Leader of the Bunch", "Thicc Daisy", "0-2", "https://youtu.be/GjxavYlno1c" ],
+  [ "Sniper Mage", "Jack Sparrow", "2-0", "https://youtu.be/mZ6RTStQCrk" ],
+  [ "Fast Doc", "Land Lubber Luigi", "0-2", "https://youtu.be/znzIRd29UAM" ],
+  [ "Zero Suit Samus (standard)", "Flinchless Falcon", "2-1", "https://youtu.be/FRkQLQ0M1sc" ],
+  [ "Slippery Kong", "Smols", "1-2", "https://www.youtube.com/watch?v=sZwKfdpyU1w" ],
+  [ "Tough Iggy", "Dedede the Rock", "1-2", "https://youtu.be/SkICCXVILwU" ],
+  [ "e-girl", "Exploshi", "2-0", "https://youtu.be/kPB1Ql5nOwU" ],
+  [ "Lu Cena", "OP Man", "0-2", "https://youtu.be/Vvcvy1GpBV4" ],
+  [ "Corrin (standard)", "Lucarengee", "2-1", "https://youtu.be/BjiSZHAb_3I" ],
+  [ "Anemia", "Batty Marth", "0-2", "https://youtu.be/lyPYmb5grb0" ],
+  [ "Priest Mew", "Aaron Burr", "2-0", "https://youtu.be/9KZIgA6sSIU" ],
+  [ "Bashirby", "Trade Off Healer Peach", "2-0", "https://youtu.be/WN9mgyCsSoY" ],
+  [ "Jumpy Mac", "Pink Hair and Pikmin", "1-2", "https://youtu.be/dOJSx_srn-c" ],
+  [ "Emerson", "Buffdunker", "2-0", "https://www.youtube.com/watch?v=xTeAxi8CE4M" ],
+  [ "Kinkay", "Trade Off Watch", "2-0", "https://www.youtube.com/watch?v=cTLrSsV9l5Q" ],
+  [ "Speedkachu", "Meteor Shulk", "0-2", "https://youtu.be/hVPGAFrSGdU" ],
+  [ "OP Link", "OP Bayo", "1-2", "https://www.youtube.com/watch?v=SKtBJ845tOo" ],
+  [ "Mr. Make & Watch", "Sheik A", "2-0", "https://youtu.be/oQK-J_Leeyk" ],
+  [ "Charizard the Rock", "Bee", "1-2", "https://youtu.be/-5p2gKsamYs" ],
+  [ "Ryu (standard)", "Not Wolf", "1-2", "https://www.youtube.com/watch?v=p37uU0Uj_xI" ],
+  [ "Ryu (standard)", "Priestess Aran", "2-0", "https://youtu.be/wFajo1t3u8o" ],
+  [ "Slippery Kong", "Zero Suit Samus (standard)", "2-0", "https://www.youtube.com/watch?v=srHIS7WH0Qo" ],
+  [ "Tough Iggy", "Land Lubber Luigi", "0-2", "https://youtu.be/QKo5AaOtqqY" ],
+  [ "Exploshi", "Sniper Mage", "0-2", "https://www.youtube.com/watch?v=l8IVhf844dI" ],
+  [ "Lu Cena", "Thicc Daisy", "2-0", "https://youtu.be/jcQs7vWxdlk" ],
+  [ "Lucarengee", "Fierce Diety", "2-0", "https://www.youtube.com/watch?v=M8J80z-6kJo" ],
+  [ "Anemia", "Shieldy Marth", "0-2", "https://youtu.be/PynVRwU623k" ],
+  [ "Aaron Burr", "Basher Toon Link", "0-2", "https://www.youtube.com/watch?v=qF8P_1AeKjs" ],
+  [ "Trade Off Healer Peach", "Jumpy Dog", "2-0", "https://youtu.be/Kp5UEsYTIdo" ],
+  [ "Jumpy Mac", "Rosalina and Luma (standard)", "0-2", "https://youtu.be/W-afs6zbKbM" ],
+  [ "Buffdunker", "Strong Diddy", "2-0", "https://youtu.be/8cbFp75THo8" ],
+  [ "Trade Off Watch", "other fox", "0-2", "https://youtu.be/2sQSgRLAlD0" ],
+  [ "Speedkachu", "He Fitness Basher", "1-2", "https://youtu.be/4FoWOAzuMfQ" ],
+  [ "OP Link", "Bowser the Rock", "2-0", "https://youtu.be/XMZmIKgvdcU" ],
+  [ "Shiek A", "She Fitness Basher", "2-0", "https://youtu.be/DBOTIw6aBAc" ],
+  [ "Charizard the Rock", "DPS Ganon", "1-2", "https://youtu.be/hx4N1CN6XCs" ],
+  [ "Smols", "Dedede the Rock", "0-2", "https://www.youtube.com/watch?v=Slk6juA8U14&feature=youtu.be" ],
+  [ "e-girl", "OP Man", "2-0", "https://www.youtube.com/watch?v=Azc8vVy8vGc" ],
+  [ "Corrin (standard)", "Batty Marth", "1-2", "https://youtu.be/4QKmZBdW20s?si=OFiBwOMIppiYKog0" ],
+  [ "Priest Mew", "Bashirby", "2-0", "https://youtu.be/AKb2Z3TIOP8?si=u1rAfUyi5QqRcES6" ],
+  [ "Pink Hair and Pikmin", "Emerson", "2-1", "https://youtu.be/uxjx4fQhq6k?si=kaBoy_TSioiOKoZc" ],
+  [ "Kinkay", "Meteor Shulk", "1-2", "https://youtu.be/U_7zhqIrktQ?si=8RfKzu7MI2SUCevO" ],
+  [ "OP Bayo", "Mr. Make and Watch", "2-1", "https://youtu.be/016LA4wYVUs" ],
+  [ "Bee", "Not Wolf", "2-1", "https://www.youtube.com/watch?v=H2nRkGCxMUM" ],
+  [ "Ryu (standard)", "DPS Ganon", "0-2", "https://www.youtube.com/watch?v=Lob_sEvWC7k" ],
+  [ "Shiek A", "OP Link", "0-2", "https://www.youtube.com/watch?v=DBOTIw6aBAc&feature=youtu.be" ],
+  [ "He Fitness Basher", "other fox", "2-1", "https://youtu.be/kaglodmTeg4" ],
+  [ "Buffdunker", "Rosalina and Luma (standard)", "1-2", "https://www.youtube.com/watch?v=7ARW4T0aJJM" ],
+  [ "Trade off healer Peach", "Basher Toon Link", "2-0", "https://youtu.be/y5cPzYUqpGM" ],
+  [ "Shieldy Marth", "Lucarengee", "0-2", "https://youtu.be/sIvFsTzDszw" ],
+  [ "Lu Cena", "Sniper Mage", "1-2", "https://youtu.be/biHl76u_UD8" ],
+  [ "Land Lubber Luigi", "Slippery Kong", "2-0", "https://youtu.be/_Ph3l6xNwoY" ],
+  [ "Bashirby", "DPS Ganon", "2-0", "https://youtu.be/v9fBqlf7Tec" ],
+  [ "Corrin (standard)", "Op Link", "0-2", "https://youtu.be/2K8Ieu6bWhI" ],
+  [ "OP Man", "He Fitness Basher", "2-0", "https://youtu.be/GAIQxA7Wkws" ],
+  [ "Smols", "Rosalina and Luma (standard)", "2-1", "https://youtu.be/ftig8cxfh2s" ],
+  [ "Not Wolf", "Trade off healer Peach", "1-2", "https://www.youtube.com/watch?v=Y3RcRvvoKIU" ],
+  [ "Mr. Make & Watch", "Lucarengee", "2-1", "https://youtu.be/8lawo_x-MrM" ],
+  [ "Kinkay", "Sniper Mage", "2-0", "https://youtu.be/Nk39B8VonEg" ],
+  [ "Emerson", "Land Lubber Luigi", "0-2", "https://youtu.be/nXKEh83pgM0" ]
+]
+
+# Name mapping for variations and typos
 name_mapping = {
-  "Rosalina & Luma" => "Rosalina and Luma",
+  "Rosalina & Luma" => "Rosalina and Luma (standard)",
+  "Rosalina & Luma (standard)" => "Rosalina and Luma (standard)",
   "Mr. Make and Watch" => "Mr. Make & Watch",
-  "Shiek B" => "Sheik B"
+  "Shiek B" => "Sheik B",
+  "Shiek A" => "Sheik A",
+  "Trade off healer Peach" => "Trade Off Healer Peach",
+  "Op Link" => "OP Link"
 }
 
 matchup_number = 1
