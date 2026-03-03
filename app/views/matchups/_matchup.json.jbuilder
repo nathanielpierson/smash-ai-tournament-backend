@@ -8,9 +8,17 @@ json.updated_at matchup.updated_at
 json.contestant_one do
   json.partial! "contestants/contestant", contestant: matchup.contestant_one
 end
-json.contestant_one_icon_image matchup.contestant_one.icon_image
+if matchup.contestant_one.icon_image.present?
+  json.contestant_one_icon_image "#{request.base_url}#{matchup.contestant_one.icon_image}"
+else
+  json.contestant_one_icon_image nil
+end
 
 json.contestant_two do
   json.partial! "contestants/contestant", contestant: matchup.contestant_two
 end
-json.contestant_two_icon_image matchup.contestant_two.icon_image
+if matchup.contestant_two.icon_image.present?
+  json.contestant_two_icon_image "#{request.base_url}#{matchup.contestant_two.icon_image}"
+else
+  json.contestant_two_icon_image nil
+end
